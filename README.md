@@ -26,6 +26,13 @@ python3 train-e.py
 Modify and run `test.py` for evaluation.
 
 ## Results
-
+Randomly generate 64 faces
 ![](https://github.com/YHQpkueecs/dcgan_with_encoder/blob/master/image/train_20.png)
 
+Interpolate between two randomly generated faces
+![](https://github.com/YHQpkueecs/dcgan_with_encoder/blob/master/image/vis_1.png)
+![](https://github.com/YHQpkueecs/dcgan_with_encoder/blob/master/image/vis_2.png)
+![](https://github.com/YHQpkueecs/dcgan_with_encoder/blob/master/image/vis_3.png)
+
+Encoding and interpolation for two selected images 
+![](https://github.com/YHQpkueecs/dcgan_with_encoder/blob/master/image/vis.png)
