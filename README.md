@@ -12,8 +12,18 @@ Implementation of DC-GAN with Encoder using TensorLayer 2.0
 Clone this repo
 
 ```python
-python3 train.py
+git clone https://github.com/YHQpkueecs/dcgan_with_encoder.git
 ```
+Create folder 'data' and download celebA dataset.
+
+Run train-gd.py train-e.py to train the generator+discriminator and encoder sequentially.
+
+```python
+python3 train-gd.py
+python3 train-e.py
+```
+
+Modify and run test.py for evaluation.
 
 ## Results
 
@@ -24,6 +34,3 @@ python3 train.py
 </a>
 
 
-
-
-## Authors
