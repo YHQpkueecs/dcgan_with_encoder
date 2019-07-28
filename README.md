@@ -2,13 +2,14 @@
 Implementation of DC-GAN with Encoder using TensorLayer 2.0
 
 ## Requirement
+- Python3
 - TensorFlow==2.0.0a0
 - TensorLayer==2.1.0
-- Python3
+- CPU or NVIDIA GPU + CUDA CuDNN
 
 ## Train the Model
 
-The following command will automatically download the training data and train the model. If you want to use different training data, please modify `data.py`.
+Clone this repo
 
 ```python
 python3 train.py
